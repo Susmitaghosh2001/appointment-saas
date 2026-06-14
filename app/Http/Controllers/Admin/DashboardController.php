@@ -10,7 +10,7 @@ class DashboardController extends Controller
     //
     public function index()
     {
-        echo"Admin Dashboard";  exit;
+        // echo"Admin Dashboard";  exit;
         return view('admin.dashboard');
     }
 }
